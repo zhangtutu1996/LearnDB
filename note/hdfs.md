@@ -19,7 +19,7 @@ blocksize：128M
 * 要定期向NN发送心跳信息，汇报本身及其所有的block信息，健康状况
 
 
-######## NameNode + N个DataNode
+####### NameNode + N个DataNode
 
 * A typical deployment has a dedicated machine that runs only the NameNode software. 
 Each of the other machines in the cluster runs one instance of the DataNode software.
