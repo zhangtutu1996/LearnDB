@@ -27,4 +27,4 @@ The architecture does not preclude running multiple DataNodes on the same machin
 but in a real deployment that is rarely the case.
 
 tips：NN和DN是部署在不同的节点上   
- 
+  
