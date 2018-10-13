@@ -26,5 +26,5 @@ Each of the other machines in the cluster runs one instance of the DataNode soft
 The architecture does not preclude running multiple DataNodes on the same machine 
 but in a real deployment that is rarely the case.
 
-tips：NN和DN是部署在不同的节点上   
+tips：NN和DN是部署在不同的节点上    
   
