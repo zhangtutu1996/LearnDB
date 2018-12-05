@@ -12,7 +12,7 @@ information_schema.`PROCESSLIST` where DB = '???';
  new String (request.getParameter("supplierType").getBytes("iso-8859-1"), "utf-8")
  ```
  
- ### 用于js Array remove()方法
+ ### 用于js Array的remove()方法
  * 类似java remove方法dx要移除的下标（移除后Array length-1）
  
  ``` JavaScript
