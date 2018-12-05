@@ -11,3 +11,18 @@ information_schema.`PROCESSLIST` where DB = '???';
  ``` 
  new String (request.getParameter("supplierType").getBytes("iso-8859-1"), "utf-8")
  ```
+ 
+ ### 用于js Array remove()方法
+ * 类似java remove方法dx要移除的下标（移除后Array length-1）
+ 
+ ``` JavaScript
+ Array.prototype.remove = function (dx) {
+    if (isNaN(dx) || dx > this.length) { return false; }
+    for (var i = 0, n = 0; i < this.length; i++) {
+        if (this[i] != this[dx]) {
+            this[n++] = this[i]
+        }
+    }
+    this.length -= 1
+}
+ ```
